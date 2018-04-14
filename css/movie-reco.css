@@ -65,6 +65,11 @@ section.movie-reco {
   margin: 5px 0px;
 }
 
+.movie-reco__img-container .movie-reco__img-subtitle {
+  opacity: 0.9;
+  font-size: 12px;
+}
+
 .movie-reco__content {
   padding: 10px 15px;
   padding-bottom: 0px;
@@ -108,7 +113,7 @@ section.movie-reco {
   display: flex;
   justify-content: space-between;
   border-top: 0.5px solid #f0f0f0;
+  padding: 0px 10px;
   padding-top: 10px;
-  margin: 0px 10px;
   color: #a7a7af;
 }

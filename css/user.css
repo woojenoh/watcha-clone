@@ -1,0 +1,134 @@
+main.user {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.user .user__header {
+  background-color: rgb(255, 198, 136);
+  height: 170px;
+  position: relative;
+  margin-bottom: 100px;
+  background-image: url("../images/profile_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.user__header .user__header-container {
+  text-align: center;
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+}
+
+.user__header-container img.user__header-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+}
+
+.user__header-container .user__header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__header-title .user__header-title-text {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+
+.user__header-title img.user__header-title-img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.user__header-container .user__header-message {
+  margin-top: 2px;
+  display: block;
+  color: #acacb2;
+}
+
+.user__header-container .user__header-follow {
+  display: block;
+  font-size: 11px;
+  margin-top: 5px;
+  color: #acacb2;
+}
+
+.user__header-left-button,
+.user__header-right-button {
+  padding: 4px 7px;
+  border-radius: 15px;
+  background-color: white;
+  color: #4183a2;
+  font-size: 12px;
+}
+
+.user__header-left-button {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+
+.user__header-right-button {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.user .user__info {
+  padding-bottom: 20px;
+}
+
+.user__info .user__info-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #f0f0f0;
+  font-weight: 500;
+  color: #5e606f;
+}
+
+.user__info .user__info-img-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.user__info-img-columns .user__info-img-column {
+  width: 85px;
+  height: 75px;
+  background-color: #40caa6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 8px;
+  position: relative;
+  border-radius: 5px;
+  color: white;
+}
+
+.user__info-img-column svg {
+  position: absolute;
+  bottom: 33px;
+}
+
+.user__info-img-column.user__info-img-column--movie {
+  background-image: url("../images/ironman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user__info-img-column.user__info-img-column--tv {
+  background-image: url("../images/hbo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

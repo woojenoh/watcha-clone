@@ -1,0 +1,98 @@
+section.my-comment {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.my-comment .comment__columns {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment__columns .comment__column {
+  display: flex;
+  align-items: center;
+  line-height: 0.1rem;
+}
+
+.comment__column .comment-img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-right: 7.5px;
+}
+
+.comment__column-title .comment__column-title-top {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.comment__column-title-top img {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.comment__column-title .comment__column-title-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.comment__column-title-bottom .comment__column-stars {
+  color: #feae52;
+  font-size: 50%;
+}
+
+.comment__column .fa-angle-down {
+  color: #acacb2;
+}
+
+.my-comment .comment__img {
+  background-image: url("../images/blood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 180px;
+  color: white;
+  position: relative;
+}
+
+.comment__img .comment__img-container {
+  width: 100%;
+  padding: 0px 15px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.comment__img-subtitle {
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+.comment__img-title {
+  font-size: 18px;
+}
+
+.comment__content {
+  margin: 15px 15px;
+}
+
+.comment__content .comment__content-day {
+  display: block;
+  color: #acacb2;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 1px;
+}
+
+.comment__btns {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid #f0f0f0;
+  padding: 10px;
+  color: #a7a7af;
+}
