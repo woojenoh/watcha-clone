@@ -36,42 +36,38 @@
   </header>
 
   <main class="index">
-    <div class="greet-message">
-      <span class="greet-message__text">
-        오늘은 왓챠플레이로 이 작품 한 편 어때요?
-      </span>
-    </div>
-
     <section class="wplay">
+      <div class="greet-message">
+        오늘은 왓챠플레이로 이 작품 한 편 어때요?
+      </div>
       <div class="wplay__info">
         <img src="images/wplay.jpg" alt="" class="wplay__info-img">
         <span class="wplay__info-text">
           왓챠플레이 수록작
         </span>
       </div>
-      <img src="images/closer.jpg" alt="" class="wplay__img">
+      <div class="wplay__img">
+        <i class="far fa-play-circle fa-4x fa-inverse"></i>
+      </div>
       <div class="wplay__content">
-        <h2 class="wplay__content-title">
+        <h3 class="wplay__content-title">
           <클로저>
-        </h2>
-        <span class="wplay__content-explain">
-          "Hello, stranger?"<br>
-          잊을 수 없는 강렬한 오프닝의 클로저를<br>
-          왓챠플레이에서 첫달 무료로 감상해 보세요<br>
-        </span>
-        <a href="" class="wplay__content-btn">감상하기</a>
+        </h3>
+        <p class="wplay__content-explain">
+          "Hello, Stranger?"<br>잊을 수 없는 강렬한 오프닝의 클로저를<br>왓챠플레이에서 첫달 무료로 감상해 보세요
+        </p>
+        <div href="#" class="wplay__content-btn">감상하기</div>
       </div>
     </section>
 
     <section class="wbook-open">
       <div class="wbook-open__content">
-        <span class="wbook-open__content-title">
+        <h3 class="wbook-open__content-title">
           드디어! 왓챠 - 도서 오픈!
-        </span>
-        <span class="wbook-open__content-explain">
-          앱을 최신 버젼으로 업데이트한 후,<br>
-          노우제님이 지금껏 읽은 책들에 별점을 매겨보세요.<br>
-        </span>
+        </h3>
+        <p class="wbook-open__content-explain">
+          앱을 최신 버젼으로 업데이트한 후, 노우제님이 지금껏 읽은 책들에 별점을 매겨보세요.
+        </p>
         <div class="wbook-open__content-links">
           <span class="wbook-open__content-link">나중에 하기</span>
           <span class="wbook-open__content-link">평가하기</span>
@@ -84,19 +80,23 @@
         이 #화려한 태그 작품은 어떠세요? 노우제님과 잘 어울려요.
       </span>
       <div class="movie-reco__img">
-        <div class="movie-reco__img-predict">
-          <span class="movie-reco__img-predict-text">예상</span>
-          <span class="movie-reco__img-predict-number">3.9</span>
+        <div class="movie-reco__img-container">
+          <div class="movie-reco__img-predict">
+            <span class="movie-reco__img-predict-text">예상</span>
+            <span class="movie-reco__img-predict-number">3.9</span>
+          </div>
+          <div class="movie-reco__img-title">
+            <h2 class="movie-reco__img-title-text">블러드 다이아몬드</h2>
+            <i class="fas fa-ellipsis-v fa-lg"></i>
+          </div>
+          <span class="movie-reco__img-subtitle">MOVIE</span>
         </div>
-        <div class="movie-reco__img-title">
-          <h2 class="movie-reco__img-title-text">블러드 다이아몬드</h2>
-          <i class="fas fa-ellipsis-v"></i>
-        </div>
-        <span class="movie-reco__img-subtitle">MOVIE</span>
       </div>
       <div class="movie-reco__content">
         <div class="movie-reco__content-row">
-          <i class="fab fa-slack-hash"></i>
+          <div class="hash-contaner">
+            <i class="fab fa-slack-hash"></i>
+          </div>
           <span class="movie-reco__content-row-text">
             선호하는 태그 #어두운
           </span>

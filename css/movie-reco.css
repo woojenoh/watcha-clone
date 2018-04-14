@@ -1,0 +1,115 @@
+section.movie-reco {
+  padding: 15px 0px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.movie-reco .movie-reco__message {
+  display: block;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+  color: #383838;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-reco .movie-reco__img {
+  background-image: url("../images/blood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 180px;
+  color: white;
+  position: relative;
+}
+
+.movie-reco__img-container {
+  width: 100%;
+  padding: 0px 15px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.movie-reco__img .movie-reco__img-predict {
+  width: 53px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.movie-reco__img-predict-text {
+  color: #ff4090;
+}
+
+.movie-reco__img-predict-number {
+  background-color: #ff4090;
+  width: 22px;
+  height: 18px;
+  margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-reco__img .movie-reco__img-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-reco__img-title .movie-reco__img-title-text {
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+.movie-reco__content {
+  padding: 10px 15px;
+  padding-bottom: 0px;
+}
+
+.movie-reco__content .movie-reco__content-row {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.movie-reco__content-row svg {
+  color: white;
+}
+
+.movie-reco__content-row .hash-contaner {
+  background-color: #4ed4e0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.movie-reco__content-row .movie-reco__content-row-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.movie-reco__content-row .movie-reco__content-row-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-reco__content-btns {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid #f0f0f0;
+  padding-top: 10px;
+  margin: 0px 10px;
+  color: #a7a7af;
+}

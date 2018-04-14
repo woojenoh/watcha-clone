@@ -1,0 +1,106 @@
+main.index {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.index .greet-message {
+  padding-bottom: 10px;
+  margin: 0px 15px;
+  margin-bottom: 10px;
+  color: #5f6070;
+  border-bottom: 0.5px solid #f0f0f0;
+}
+
+section.wplay {
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.wplay .wplay__info {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.wplay .wplay__info img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.wplay .wplay__info span {
+  margin-left: 10px;
+}
+
+.wplay .wplay__img {
+  background-image: url("../images/closer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wplay .wplay__img svg {
+  opacity: 0.75;
+}
+
+.wplay .wplay__content {
+  padding: 15px 0px;
+  margin: 0px 15px;
+}
+
+.wplay__content .wplay__content-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.wplay__content p {
+  color: #383838;
+  text-align: left;
+}
+
+.wplay__content .wplay__content-btn {
+  margin-top: 15px;
+  height: 35px;
+  background-color: #40caa6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+section.wbook-open {
+  background-color: white;
+  padding: 0 15px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.wbook-open__content .wbook-open__content-title {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.wbook-open__content p {
+  text-align: center;
+  color: #5f6070;
+}
+
+.wbook-open__content .wbook-open__content-links {
+  margin-top: 20px;
+  padding: 12.5px 0px;
+  border-top: 0.5px solid #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  color: #5f6070;
+  font-weight: 600;
+}

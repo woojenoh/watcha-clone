@@ -1,2 +1,24 @@
 body {
+  font-size: 13px;
+  font-family: "Gothic A1", sans-serif;
+}
+
+p,
+span {
+  line-height: 1.2rem;
+}
+
+.plus-btn {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ff4090;
+  border-radius: 50%;
+  color: white;
+  right: 15px;
+  bottom: 15px;
+  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
