@@ -12,6 +12,7 @@ main.index {
 }
 
 section.wplay {
+  padding-top: 20px;
   margin-bottom: 15px;
   background-color: white;
 }

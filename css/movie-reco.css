@@ -1,13 +1,12 @@
 section.movie-reco {
-  padding: 15px 0px;
+  padding-bottom: 15px;
   background-color: white;
   margin-bottom: 15px;
 }
 
 .movie-reco .movie-reco__message {
   display: block;
-  padding: 0px 15px;
-  margin-bottom: 15px;
+  padding: 15px 15px;
   color: #383838;
 
   white-space: nowrap;

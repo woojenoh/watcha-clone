@@ -1,0 +1,69 @@
+main.heart {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.categories {
+  padding: 20px 0px;
+}
+
+.categories .category {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #c4c3cb;
+}
+
+.categories .category.category--selected {
+  color: #ff4090;
+}
+
+section.tag-suggest {
+  background-color: white;
+  padding: 10px 0px;
+}
+
+.tag-suggest .tag-suggest__message {
+  padding: 0px 15px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #f0f0f0;
+  display: block;
+}
+
+.tag-suggest .movie-tags {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 0.5px solid #f0f0f0;
+}
+
+.movie-tags .movie-tag {
+  color: #9c9c9c;
+  border: 1px solid #c4c3cb;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin: 3px 0px;
+  margin-right: 10px;
+}
+
+.tag-suggest .tag-suggest__more {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #9c9c9c;
+}
+
+.heart .heart__message {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #9c9c9c;
+}
+
+.movie-reco__img.movie-reco__img--1000 {
+  background-image: url("../images/1000.jpg");
+}
+
+.movie-reco__img.movie-reco__img--killer {
+  background-image: url("../images/killer.jpg");
+}

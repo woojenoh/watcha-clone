@@ -3,6 +3,7 @@ main.compass {
 }
 
 section.movie-rank {
+  padding-top: 20px;
 }
 
 .movie-rank__title-columns {
