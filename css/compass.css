@@ -1,0 +1,59 @@
+main.compass {
+  height: 100%;
+}
+
+section.movie-rank {
+}
+
+.movie-rank__title-columns {
+  width: 100%;
+  padding: 0px 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #5f6070;
+}
+
+.movie-rank .movie-rank__images {
+  margin-bottom: 20px;
+}
+
+.movie-rank__images .movie-rank__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+
+.movie-rank__image.movie-rank__image--boxoffice {
+  background-image: url("../images/rampage.jpg");
+}
+
+.movie-rank__image.movie-rank__image--tv {
+  background-image: url("../images/bob.jpg");
+}
+
+.movie-rank__image.movie-rank__image--book {
+  background-image: url("../images/book.jpg");
+}
+
+.movie-rank__image.movie-rank__image--wplay {
+  background-image: url("../images/throne.jpg");
+}
+
+.movie-rank__image.movie-rank__image--sundance {
+  background-image: url("../images/whiplash.jpg");
+}
+
+.movie-rank__image.movie-rank__image--china {
+  background-image: url("../images/china.jpg");
+}
+
+.movie-rank__image.movie-rank__image--goncourt {
+  background-image: url("../images/goncourt.jpg");
+}
