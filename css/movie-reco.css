@@ -60,6 +60,7 @@ section.movie-reco {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .movie-reco__img-title .movie-reco__img-title-text {
@@ -120,4 +121,10 @@ section.movie-reco {
   padding: 0px 10px;
   padding-top: 10px;
   color: #a7a7af;
+}
+
+.movie-reco__content-btn:hover {
+  color: #ff4090;
+  cursor: pointer;
+  transition: all 0.2s;
 }

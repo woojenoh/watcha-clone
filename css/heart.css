@@ -45,6 +45,13 @@ section.tag-suggest {
   margin-right: 10px;
 }
 
+.movie-tags .movie-tag:hover {
+  cursor: pointer;
+  background-color: #ff4090;
+  color: white;
+  transition: all 0.2s;
+}
+
 .tag-suggest .tag-suggest__more {
   display: block;
   margin-top: 10px;

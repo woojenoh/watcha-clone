@@ -48,6 +48,7 @@ section.wplay {
 
 .wplay .wplay__img svg {
   opacity: 0.75;
+  cursor: pointer;
 }
 
 .wplay .wplay__content {
@@ -77,6 +78,10 @@ section.wplay {
   border-radius: 5px;
 }
 
+.wplay__content-btn:hover {
+  cursor: pointer;
+}
+
 section.wbook-open {
   background-color: white;
   padding: 0 15px;
@@ -103,4 +108,8 @@ section.wbook-open {
   display: flex;
   justify-content: space-around;
   color: #5f6070;
+}
+
+.wbook-open__content-link:hover {
+  cursor: pointer;
 }
