@@ -33,7 +33,7 @@ section.movie-reco {
 
 .movie-reco__img .movie-reco__img-predict {
   width: 57px;
-  height: 23px;
+  height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,6 +42,7 @@ section.movie-reco {
 
 .movie-reco__img-predict-text {
   color: #ff4090;
+  font-size: 14px;
 }
 
 .movie-reco__img-predict-number {
@@ -52,6 +53,8 @@ section.movie-reco {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0.5px;
+  font-size: 14px;
 }
 
 .movie-reco__img .movie-reco__img-title {
@@ -76,7 +79,7 @@ section.movie-reco {
 }
 
 .movie-reco__content .movie-reco__content-row {
-  margin-bottom: 10px;
+  margin-bottom: 13px;
   display: flex;
   align-items: center;
 }
@@ -102,7 +105,7 @@ section.movie-reco {
   width: 25px;
   height: 25px;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 .movie-reco__content-row .movie-reco__content-row-text {
