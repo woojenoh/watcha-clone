@@ -25,7 +25,7 @@ section.my-comment {
 .comment__column-title .comment__column-title-top {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .comment__column-title-top img {
@@ -39,12 +39,11 @@ section.my-comment {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .comment__column-title-bottom .comment__column-stars {
   color: #feae52;
-  font-size: 50%;
 }
 
 .comment__column .fa-angle-down {
@@ -70,11 +69,11 @@ section.my-comment {
 
 .comment__img-subtitle {
   opacity: 0.9;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .comment__img-title {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .comment__content {
@@ -84,7 +83,7 @@ section.my-comment {
 .comment__content .comment__content-day {
   display: block;
   color: #acacb2;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 20px;
   margin-top: 1px;
 }

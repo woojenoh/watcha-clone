@@ -6,17 +6,18 @@
   display: flex;
   justify-content: space-between;
   margin: 0px 15px;
-  margin-bottom: 18px;
+  margin-bottom: 25px;
 }
 
 .header__top .header__column span {
-  font-size: 16px;
+  font-size: 20px;
   color: #313042;
 }
 
 .header__top .header__column span.logo {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
+  font-family: sans-serif;
 }
 
 .header__top .header__column svg {

@@ -28,7 +28,7 @@ section.movie-rank {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .movie-rank__image.movie-rank__image--boxoffice {

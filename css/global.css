@@ -1,11 +1,11 @@
 body {
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Gothic A1", sans-serif;
 }
 
 p,
 span {
-  line-height: 1.2rem;
+  line-height: 1.3rem;
 }
 
 .plus-btn {

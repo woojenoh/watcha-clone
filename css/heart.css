@@ -9,7 +9,7 @@ main.heart {
 
 .categories .category {
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: #c4c3cb;
 }
 
@@ -39,9 +39,9 @@ section.tag-suggest {
 .movie-tags .movie-tag {
   color: #9c9c9c;
   border: 1px solid #c4c3cb;
-  padding: 2px 6px;
+  padding: 4px 8px;
   border-radius: 10px;
-  margin: 3px 0px;
+  margin: 5px 0px;
   margin-right: 10px;
 }
 

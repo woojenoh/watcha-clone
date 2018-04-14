@@ -5,9 +5,9 @@ main.user {
 
 .user .user__header {
   background-color: rgb(255, 198, 136);
-  height: 170px;
+  height: 200px;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   background-image: url("../images/profile_wallpaper.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -16,7 +16,7 @@ main.user {
 .user__header .user__header-container {
   text-align: center;
   position: absolute;
-  bottom: -90px;
+  bottom: -100px;
   width: 100%;
 }
 
@@ -35,7 +35,7 @@ main.user {
 }
 
 .user__header-title .user__header-title-text {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   margin-right: 3px;
   margin-top: 5px;
@@ -48,25 +48,24 @@ main.user {
 }
 
 .user__header-container .user__header-message {
-  margin-top: 2px;
+  margin-top: 5px;
   display: block;
   color: #acacb2;
 }
 
 .user__header-container .user__header-follow {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 5px;
   color: #acacb2;
 }
 
 .user__header-left-button,
 .user__header-right-button {
-  padding: 4px 7px;
+  padding: 6px 9px;
   border-radius: 15px;
   background-color: white;
   color: #4183a2;
-  font-size: 12px;
 }
 
 .user__header-left-button {
@@ -104,8 +103,8 @@ main.user {
 }
 
 .user__info-img-columns .user__info-img-column {
-  width: 85px;
-  height: 75px;
+  width: 88px;
+  height: 78px;
   background-color: #40caa6;
   display: flex;
   align-items: flex-end;

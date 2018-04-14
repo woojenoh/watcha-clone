@@ -32,8 +32,8 @@ section.movie-reco {
 }
 
 .movie-reco__img .movie-reco__img-predict {
-  width: 53px;
-  height: 21px;
+  width: 57px;
+  height: 23px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,8 +46,8 @@ section.movie-reco {
 
 .movie-reco__img-predict-number {
   background-color: #ff4090;
-  width: 22px;
-  height: 18px;
+  width: 24px;
+  height: 20px;
   margin-left: 2px;
   display: flex;
   justify-content: center;
@@ -61,13 +61,13 @@ section.movie-reco {
 }
 
 .movie-reco__img-title .movie-reco__img-title-text {
-  font-size: 18px;
+  font-size: 20px;
   margin: 5px 0px;
 }
 
 .movie-reco__img-container .movie-reco__img-subtitle {
   opacity: 0.9;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .movie-reco__content {
@@ -87,18 +87,20 @@ section.movie-reco {
 
 .movie-reco__content-row .hash-contaner {
   background-color: #4ed4e0;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  font-size: 120%;
+  opacity: 0.9;
 }
 
 .movie-reco__content-row .movie-reco__content-row-img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 5px;
   margin-right: 10px;
 }
